@@ -10,7 +10,6 @@ import { ButtonBaseDefaultComponent } from './components/main-design/button-base
 import { ButtonIconBaseDefaultComponent } from './components/main-design/button-icon-base-default/button-icon-base-default.component';
 import { ButtonTypePrimarySizeDefaultComponent } from './components/main-design/button-type-primary-size-default/button-type-primary-size-default.component';
 import { ButtonTypePrimarySizeDefault2Component } from './components/main-design/button-type-primary-size-default2/button-type-primary-size-default2.component';
-import { DividerTypeHorizontalSpacedComponent } from './components/main-design/divider-type-horizontal-spaced/divider-type-horizontal-spaced.component';
 import { DropdownSizeDefaultStateDefaultComponent } from './components/main-design/dropdown-size-default-state-default/dropdown-size-default-state-default.component';
 import { IconstyleRegularPaddingSquareComponent } from './components/main-design/iconstyle-regular-padding-square/iconstyle-regular-padding-square.component';
 import { IconstyleRegularPaddingSquare2Component } from './components/main-design/iconstyle-regular-padding-square2/iconstyle-regular-padding-square2.component';
@@ -31,7 +30,6 @@ import { IconstyleRegularPaddingNoneComponent } from './components/main-design/i
     ButtonIconBaseDefaultComponent,
     ButtonTypePrimarySizeDefaultComponent,
     ButtonTypePrimarySizeDefault2Component,
-    DividerTypeHorizontalSpacedComponent,
     DropdownSizeDefaultStateDefaultComponent,
     IconstyleRegularPaddingSquareComponent,
     IconstyleRegularPaddingSquare2Component,

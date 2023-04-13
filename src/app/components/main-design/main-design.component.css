@@ -44,6 +44,7 @@ svg {
   overflow-y: auto;
   overflow-x: hidden;
 }
+
 .pageHeader {
   position: absolute;
   left: 380px;
@@ -56,6 +57,7 @@ svg {
   background-color: #f5f7f9;
   backdrop-filter: blur(8px);
 }
+
 .leftHeader {
   height: 40px;
   flex: 1;
@@ -63,6 +65,7 @@ svg {
   place-content: center;
   gap: 8px;
 }
+
 .pageTitle {
   color: #4a5f82;
   font-size: 20px;
@@ -74,6 +77,7 @@ svg {
   align-self: stretch;
   flex-direction: column;
 }
+
 .overline {
   color: #5d75a2;
   font-size: 12px;
@@ -84,10 +88,12 @@ svg {
   align-self: stretch;
   flex-direction: column;
 }
+
 .rightHeader {
   width: min-content;
   height: min-content;
 }
+
 .breadcrumbs {
   position: absolute;
   left: 420px;
@@ -98,12 +104,14 @@ svg {
   gap: 40px;
   padding: 0 24px;
 }
+
 .tableColumnTitle {
   width: 80px;
   height: min-content;
   align-items: center;
   gap: 6px;
 }
+
 .status {
   color: #5d75a2;
   font-size: 11px;
@@ -116,6 +124,7 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .icon {
   color: #5d75a2;
   font-size: 14px;
@@ -128,12 +137,14 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .tableColumnTitle2 {
   width: 368px;
   height: min-content;
   align-items: center;
   gap: 6px;
 }
+
 .status2 {
   color: #5d75a2;
   font-size: 11px;
@@ -146,12 +157,14 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .tableColumnTitle3 {
   width: 120px;
   height: min-content;
   align-items: center;
   gap: 6px;
 }
+
 .status3 {
   color: #5d75a2;
   font-size: 11px;
@@ -164,6 +177,7 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .frame8 {
   position: absolute;
   left: 420px;
@@ -174,6 +188,7 @@ svg {
   align-items: flex-start;
   gap: 8px;
 }
+
 .filters {
   position: absolute;
   left: 420px;
@@ -185,18 +200,21 @@ svg {
   background-color: #f5f7f9e5;
   backdrop-filter: blur(2px);
 }
+
 .leftHeader2 {
   width: min-content;
   height: min-content;
 }
+
 .assessmentsSidebar {
   position: absolute;
   left: 80px;
   top: 80px;
   width: 300px;
-  height: 880px;
+  height: fit-content;
   align-items: flex-start;
 }
+
 .sidebar {
   position: absolute;
   left: 0;
@@ -206,16 +224,18 @@ svg {
   background-color: #eff1f6;
   box-shadow: 1px 0px 0px 0px #dfe4ec;
 }
+
 .sidebarItems {
   position: absolute;
   left: 0;
   top: 56px;
   width: min-content;
-  height: 380px;
+  height: auto;
   flex-direction: column;
   align-items: flex-start;
   overflow-y: auto;
 }
+
 .frame15 {
   height: min-content;
   align-self: stretch;
@@ -223,6 +243,7 @@ svg {
   gap: 8px;
   padding: 0 32px;
 }
+
 .sidebarItem {
   height: 48px;
   align-self: stretch;
@@ -231,12 +252,14 @@ svg {
   padding: 16px;
   border-radius: 4px;
 }
+
 .icon2 {
   width: 20px;
   height: 20px;
   place-content: center;
   align-items: center;
 }
+
 .icon3 {
   color: #aebbd1;
   font-size: 16px;
@@ -248,6 +271,7 @@ svg {
   align-items: center;
   flex-direction: column;
 }
+
 .categoryItem {
   color: #5d75a2;
   font-size: 14px;
@@ -259,6 +283,7 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .sidebarItem2 {
   height: 48px;
   align-self: stretch;
@@ -268,12 +293,14 @@ svg {
   border-radius: 4px;
   background-color: #0099991a;
 }
+
 .icon4 {
   width: 20px;
   height: 20px;
   place-content: center;
   align-items: center;
 }
+
 .icon5 {
   color: #099;
   font-size: 16px;
@@ -285,6 +312,7 @@ svg {
   align-items: center;
   flex-direction: column;
 }
+
 .categoryItem2 {
   color: #099;
   font-size: 14px;
@@ -297,6 +325,7 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .filterItems {
   width: 300px;
   height: min-content;
@@ -304,6 +333,7 @@ svg {
   gap: 16px;
   padding: 16px 32px;
 }
+
 .assessmentsSidenav {
   position: absolute;
   left: 0;
@@ -312,17 +342,20 @@ svg {
   height: 880px;
   align-items: flex-start;
 }
+
 .assessmentsSidenav2 {
   width: min-content;
   height: 1000px;
   align-items: flex-start;
   background-color: #fff;
 }
+
 .sidebar2 {
   width: 80px;
   height: min-content;
   flex-direction: column;
 }
+
 .sideNavToggleCollapsed {
   height: 96px;
   align-self: stretch;
@@ -330,6 +363,7 @@ svg {
   align-items: center;
   padding: 0 24px;
 }
+
 .expand {
   width: 32px;
   height: 32px;
@@ -340,11 +374,14 @@ svg {
   outline-offset: -1px;
   border-radius: 100px;
 }
+
 .navItems {
+  margin: auto;
   height: min-content;
   align-self: stretch;
   flex-direction: column;
 }
+
 .sideNavItem {
   height: 80px;
   align-self: stretch;
@@ -355,6 +392,7 @@ svg {
   background-color: #eff1f6;
   overflow: hidden;
 }
+
 .sideNavItem2 {
   height: 80px;
   align-self: stretch;
@@ -364,6 +402,7 @@ svg {
   padding: 8px 25px;
   overflow: hidden;
 }
+
 .sideNavItem3 {
   height: 80px;
   align-self: stretch;
@@ -373,6 +412,7 @@ svg {
   padding: 8px 25px;
   overflow: hidden;
 }
+
 .sideNavItem4 {
   height: 80px;
   align-self: stretch;
@@ -382,6 +422,7 @@ svg {
   padding: 8px 25px;
   overflow: hidden;
 }
+
 .sideNavItem5 {
   height: 80px;
   align-self: stretch;
@@ -391,6 +432,7 @@ svg {
   padding: 8px 25px;
   overflow: hidden;
 }
+
 .topNavigation {
   position: absolute;
   left: 0;
@@ -404,21 +446,25 @@ svg {
   box-shadow: 2px 2px 4px 0px #4a5f821a;
   backdrop-filter: blur(8px);
 }
+
 .leftNav {
   width: min-content;
   height: min-content;
   align-items: center;
   gap: 24px;
 }
+
 .logo {
   width: 167.998px;
   height: 32px;
 }
+
 .icon6 {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .separator {
   width: 1px;
   max-width: 100%;
@@ -426,6 +472,7 @@ svg {
   max-height: 100%;
   background-color: #dfe4ec;
 }
+
 .productName {
   color: #099;
   font-size: 14px;
@@ -438,11 +485,13 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .rightNav {
   width: min-content;
   height: min-content;
   align-items: flex-start;
 }
+
 .topNavItem {
   width: 64px;
   height: 64px;
@@ -452,16 +501,19 @@ svg {
   border-radius: 6px;
   overflow: hidden;
 }
+
 .apps {
   width: 24px;
   height: 24px;
   overflow: visible;
 }
+
 .icon7 {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .topNavItem2 {
   width: 64px;
   height: 64px;
@@ -471,16 +523,19 @@ svg {
   border-radius: 6px;
   overflow: hidden;
 }
+
 .notificationsNew {
   width: 24px;
   height: 24px;
   overflow: visible;
 }
+
 .icon8 {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .userMenu {
   width: min-content;
   height: 64px;
@@ -491,6 +546,7 @@ svg {
   border-radius: 6px;
   overflow: hidden;
 }
+
 .name {
   width: min-content;
   height: min-content;
@@ -499,6 +555,7 @@ svg {
   align-items: flex-end;
   gap: 6px;
 }
+
 .jeanneHarris {
   color: #4a5f82;
   font-size: 14px;
@@ -511,13 +568,24 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
+
 .photo {
   width: 48px;
   height: 48px;
   overflow: visible;
 }
+
 .icon9 {
   width: 100%;
   height: 100%;
   object-fit: cover;
+}
+
+.divider {
+  margin-top: 20px;
+  max-width: 100%;
+  height: 1px;
+  max-height: 100%;
+  align-self: stretch;
+  background-color: #dfe4ec;
 }
