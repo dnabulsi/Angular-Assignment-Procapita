@@ -12,15 +12,14 @@ import { ButtonTypePrimarySizeDefaultComponent } from './components/main-design/
 import { ButtonTypePrimarySizeDefault2Component } from './components/main-design/button-type-primary-size-default2/button-type-primary-size-default2.component';
 import { DividerTypeHorizontalSpacedComponent } from './components/main-design/divider-type-horizontal-spaced/divider-type-horizontal-spaced.component';
 import { DropdownSizeDefaultStateDefaultComponent } from './components/main-design/dropdown-size-default-state-default/dropdown-size-default-state-default.component';
-import { IconstyleRegularPaddingNoneComponent } from './components/main-design/iconstyle-regular-padding-none/iconstyle-regular-padding-none.component';
 import { IconstyleRegularPaddingSquareComponent } from './components/main-design/iconstyle-regular-padding-square/iconstyle-regular-padding-square.component';
 import { IconstyleRegularPaddingSquare2Component } from './components/main-design/iconstyle-regular-padding-square2/iconstyle-regular-padding-square2.component';
-import { IconstyleRegularPaddingSquare3Component } from './components/main-design/iconstyle-regular-padding-square3/iconstyle-regular-padding-square3.component';
 import { IconstyleSolidPaddingSquareComponent } from './components/main-design/iconstyle-solid-padding-square/iconstyle-solid-padding-square.component';
 import { InputSizeDefaultComponent } from './components/main-design/input-size-default/input-size-default.component';
 import { LegalEntityDropdownComponent } from './components/main-design/legal-entity-dropdown/legal-entity-dropdown.component';
 import { MoreActionsSizeDefaultStatComponent } from './components/main-design/more-actions-size-default-stat/more-actions-size-default-stat.component';
 import { SidebarTitleTypeTitleComponent } from './components/main-design/sidebar-title-type-title/sidebar-title-type-title.component';
+import { IconstyleRegularPaddingNoneComponent } from './components/main-design/iconstyle-regular-padding-none/iconstyle-regular-padding-none.component';
 
 @NgModule({
   declarations: [
@@ -34,15 +33,14 @@ import { SidebarTitleTypeTitleComponent } from './components/main-design/sidebar
     ButtonTypePrimarySizeDefault2Component,
     DividerTypeHorizontalSpacedComponent,
     DropdownSizeDefaultStateDefaultComponent,
-    IconstyleRegularPaddingNoneComponent,
     IconstyleRegularPaddingSquareComponent,
     IconstyleRegularPaddingSquare2Component,
-    IconstyleRegularPaddingSquare3Component,
     IconstyleSolidPaddingSquareComponent,
     InputSizeDefaultComponent,
     LegalEntityDropdownComponent,
     MoreActionsSizeDefaultStatComponent,
-    SidebarTitleTypeTitleComponent
+    SidebarTitleTypeTitleComponent,
+    IconstyleRegularPaddingNoneComponent
   ],
   imports: [
     BrowserModule,
