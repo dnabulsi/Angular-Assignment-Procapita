@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "figma-to-frontend": {
+    "my-app": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/figma-to-frontend",
+            "outputPath": "dist/my-app",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -60,10 +60,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "figma-to-frontend:build:production"
+              "browserTarget": "my-app:build:production"
             },
             "development": {
-              "browserTarget": "figma-to-frontend:build:development"
+              "browserTarget": "my-app:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -71,7 +71,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "figma-to-frontend:build"
+            "browserTarget": "my-app:build"
           }
         },
         "test": {
@@ -96,6 +96,6 @@
     }
   },
   "cli": {
-    "analytics": "6ee25327-2eff-4cba-a2ae-f0b1489442fc"
+    "analytics": "6bf9ba18-1288-42a5-ac2b-08b67bdfcfab"
   }
 }
