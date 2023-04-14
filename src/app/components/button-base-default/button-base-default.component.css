@@ -39,19 +39,21 @@ svg {
   width: min-content;
   height: 40px;
   align-items: center;
-  padding: 8px 16px;
+  padding: 6px;
   border-radius: 4px;
-  background-color: #fff;
+  background-color: #009999;
   overflow: hidden;
 }
+
 .content {
   width: min-content;
   height: 16px;
   align-items: center;
   gap: 12px;
 }
+
 .label {
-  color: #000;
+  color: #ffffff;
   font-size: 14px;
   line-height: 20px;
   font-weight: 500;

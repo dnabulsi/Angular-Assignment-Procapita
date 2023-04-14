@@ -6,6 +6,6 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./button-icon-base-default.component.css']
 })
 export class ButtonIconBaseDefaultComponent implements OnInit {
-  constructor() { }
-  ngOnInit(): void { }
+  constructor() {}
+  ngOnInit(): void {}
 }

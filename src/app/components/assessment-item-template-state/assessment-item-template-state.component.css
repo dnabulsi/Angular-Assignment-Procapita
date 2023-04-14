@@ -36,7 +36,7 @@ svg {
 }
 
 :host {
-  width: inherit;
+  width: 980px;
   height: 80px;
   place-content: space-between;
   align-items: center;
@@ -44,21 +44,18 @@ svg {
   border-radius: 4px;
   background-color: #ffffff80;
 }
-
 .leftContent {
   width: min-content;
   height: min-content;
   align-items: center;
   gap: 40px;
 }
-
 .status {
   width: 80px;
   height: min-content;
   align-items: center;
   gap: 4px;
 }
-
 .pageTitle {
   color: #7d92b5;
   font-size: 11px;
@@ -73,26 +70,23 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
-
 .assessmentTitle {
   color: #4a5f82;
   font-size: 14px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 500;
   font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   width: 368px;
   height: min-content;
   flex-direction: column;
 }
-
 .frame6 {
   width: min-content;
   height: 20px;
   align-items: center;
   gap: 4px;
 }
-
 .overline {
   color: #4a5f82;
   font-size: 12px;
@@ -105,7 +99,6 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
-
 .overlineBold {
   color: #5d75a2;
   font-size: 14px;
@@ -118,19 +111,16 @@ svg {
   white-space: nowrap;
   flex-direction: column;
 }
-
 .frame5 {
   width: min-content;
   height: 20px;
   align-items: center;
   gap: 4px;
 }
-
 .rightContent {
   width: min-content;
   height: min-content;
 }
-
 .rightSubcontent {
   width: min-content;
   height: min-content;

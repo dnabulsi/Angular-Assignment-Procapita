@@ -8,7 +8,6 @@
   flex-shrink: 0;
   text-decoration: none;
   min-width: 0;
-  overflow-wrap: anywhere;
 }
 
 :host,
@@ -35,27 +34,15 @@ svg {
   overflow: visible;
 }
 
-:host {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  align-items: flex-start;
-  background-color: #f5f7f9;
-  /*overflow-y: auto;
-  overflow-x: hidden;*/
-}
-
 .pageHeader {
   position: absolute;
   left: 380px;
   top: 80px;
-  width: 100%;
+  width: 1060px;
   height: 96px;
   align-items: flex-end;
   gap: 16px;
   padding: 0 40px 16px;
-  background-color: #f5f7f9;
-  backdrop-filter: blur(8px);
 }
 
 .leftHeader {
@@ -69,7 +56,7 @@ svg {
 .pageTitle {
   color: #4a5f82;
   font-size: 20px;
-  font-weight: bold;
+  font-weight: 600;
   font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   letter-spacing: -0.02em;
@@ -98,7 +85,7 @@ svg {
   position: absolute;
   left: 420px;
   top: 272px;
-  width: 100%;
+  width: 980px;
   height: min-content;
   align-items: center;
   gap: 40px;
@@ -110,19 +97,6 @@ svg {
   height: min-content;
   align-items: center;
   gap: 6px;
-}
-
-.status {
-  color: #5d75a2;
-  font-size: 11px;
-  font-weight: 500;
-  font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
-    'Liberation Sans', sans-serif;
-  text-transform: uppercase;
-  width: min-content;
-  height: min-content;
-  white-space: nowrap;
-  flex-direction: column;
 }
 
 .icon {
@@ -143,6 +117,19 @@ svg {
   height: min-content;
   align-items: center;
   gap: 6px;
+}
+
+.status {
+  color: #5d75a2;
+  font-size: 11px;
+  font-weight: 500;
+  font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  text-transform: uppercase;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
 }
 
 .status2 {
@@ -182,12 +169,13 @@ svg {
   position: absolute;
   left: 420px;
   top: 310px;
-  width: min-content;
+  width: fit-content;
   height: min-content;
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
 }
+
 
 .filters {
   position: absolute;
@@ -197,7 +185,6 @@ svg {
   height: 96px;
   align-items: flex-start;
   padding: 16px 0 0;
-  background-color: #f5f7f9e5;
   backdrop-filter: blur(2px);
 }
 
@@ -211,8 +198,9 @@ svg {
   left: 80px;
   top: 80px;
   width: 300px;
-  height: fit-content;
+  height: 100%;
   align-items: flex-start;
+  background-color: #eff1f6;
 }
 
 .sidebar {
@@ -221,8 +209,6 @@ svg {
   top: 0;
   width: 300px;
   height: 100vh;
-  background-color: #eff1f6;
-  box-shadow: 1px 0px 0px 0px #dfe4ec;
 }
 
 .sidebarItems {
@@ -230,10 +216,9 @@ svg {
   left: 0;
   top: 56px;
   width: min-content;
-  height: auto;
+  height: fit-content;
   flex-direction: column;
   align-items: flex-start;
-  overflow-y: auto;
 }
 
 .frame15 {
@@ -337,15 +322,18 @@ svg {
 .assessmentsSidenav {
   position: absolute;
   left: 0;
-  top: 80px;
   width: min-content;
-  height: 100vh;
+  height: 100%;
   align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow-y: auto;
 }
 
 .assessmentsSidenav2 {
   width: min-content;
-  height: 100vh;
+  height: 100%;
   align-items: flex-start;
   background-color: #fff;
 }
@@ -376,7 +364,6 @@ svg {
 }
 
 .navItems {
-  margin: auto;
   height: min-content;
   align-self: stretch;
   flex-direction: column;
@@ -444,7 +431,15 @@ svg {
   padding: 16px 40px;
   background-color: #ffffffe5;
   box-shadow: 2px 2px 4px 0px #4a5f821a;
-  backdrop-filter: blur(8px);
+}
+
+.mainContentsContainer {
+  margin-top: 72px;
+  height: 100%;
+  width: 500px;
+  word-wrap: break-word;
+  max-width: 90%;
+  margin: 72;
 }
 
 .leftNav {
@@ -477,7 +472,7 @@ svg {
   color: #099;
   font-size: 14px;
   line-height: 20px;
-  font-weight: bold;
+  font-weight: 500;
   font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   width: min-content;
@@ -581,11 +576,6 @@ svg {
   object-fit: cover;
 }
 
-.divider {
-  margin-top: 20px;
-  max-width: 100%;
-  height: 1px;
-  max-height: 100%;
-  align-self: stretch;
-  background-color: #dfe4ec;
+.assessmentsContainer {
+  width: 100wh;
 }

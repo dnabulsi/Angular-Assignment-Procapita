@@ -39,3 +39,10 @@ svg {
   width: min-content;
   height: min-content;
 }
+
+.content {
+  width: min-content;
+  height: 16px;
+  align-items: center;
+  vertical-align:middle;
+}

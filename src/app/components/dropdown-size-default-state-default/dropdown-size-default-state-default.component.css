@@ -64,6 +64,7 @@ svg {
   border-radius: 4px;
   background-color: #fff;
   overflow: hidden;
+  margin-bottom: 18px;
 }
 .contentWrapper {
   height: min-content;
