@@ -43,6 +43,7 @@ svg {
   gap: 4px;
   overflow: hidden;
 }
+
 .label {
   color: #5d75a2;
   font-size: 12px;
@@ -53,6 +54,7 @@ svg {
   align-self: stretch;
   flex-direction: column;
 }
+
 .dropdownWrapper {
   height: 40px;
   align-self: stretch;
@@ -66,33 +68,41 @@ svg {
   overflow: hidden;
   margin-bottom: 18px;
 }
-.contentWrapper {
-  height: min-content;
-  align-self: stretch;
-  align-items: center;
-  gap: 8px;
-}
+
 .content {
   height: min-content;
   flex: 1;
   align-items: center;
   gap: 8px;
 }
-.Select {
-  color: #aebbd1;
+
+select {
+  color: #4A5F82;
   font-size: 14px;
   line-height: 20px;
   font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
-  height: min-content;
+  height: max-content;
   flex: 1;
   flex-direction: column;
+  height: min-content;
+  align-self: stretch;
+  align-items: center;
+  gap: 8px;
+  appearance: none;
+  background-image: url('/assets/arrow-icon.svg');
+  background-repeat: no-repeat;
+  background-position: right .7em top 50%, 0 0;
+  background-size: 1.2em auto, 100%;
+  padding-right: 20px;
 }
+
 .arrow {
   width: 17.1435px;
   height: 16px;
   overflow: visible;
 }
+
 .icon {
   width: 100%;
   height: 100%;

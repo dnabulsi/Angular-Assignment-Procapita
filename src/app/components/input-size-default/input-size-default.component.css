@@ -79,12 +79,17 @@ svg {
   gap: 6px;
 }
 .value {
-  color: #4a5f82;
+  color: #7D92B5;
   font-size: 14px;
   line-height: 20px;
   font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   height: min-content;
   flex: 1;
+  outline: none;
   flex-direction: column;
+}
+
+input[type="text"]::placeholder {
+  color: #7D92B5;
 }
