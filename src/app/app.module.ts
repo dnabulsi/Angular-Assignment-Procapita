@@ -15,7 +15,6 @@ import { IconstyleSolidPaddingSquareComponent } from './components/iconstyle-sol
 import { InputSizeDefaultComponent } from './components/input-size-default/input-size-default.component';
 import { LegalEntityDropdownComponent } from './components/legal-entity-dropdown/legal-entity-dropdown.component';
 import { MoreActionsSizeDefaultStatComponent } from './components/more-actions-size-default-stat/more-actions-size-default-stat.component';
-import { SidebarTitleTypeTitleComponent } from './components/sidebar-title-type-title/sidebar-title-type-title.component';
 import { IconstyleRegularPaddingNoneComponent } from './components/iconstyle-regular-padding-none/iconstyle-regular-padding-none.component';
 import { ButtonIconBaseDefaultComponent } from './components/button-icon-base-default/button-icon-base-default.component';
 import { IconstyleRegularPaddingSquareComponent } from './components/iconstyle-regular-padding-square/iconstyle-regular-padding-square.component';
@@ -34,7 +33,6 @@ import { IconstyleRegularPaddingSquareComponent } from './components/iconstyle-r
     InputSizeDefaultComponent,
     LegalEntityDropdownComponent,
     MoreActionsSizeDefaultStatComponent,
-    SidebarTitleTypeTitleComponent,
     IconstyleRegularPaddingNoneComponent,
     ButtonIconBaseDefaultComponent,
     IconstyleRegularPaddingSquareComponent
