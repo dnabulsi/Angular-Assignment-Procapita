@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Assessment } from './models/assessment';
+import { AssessmentService } from 'src/services/assessment.service';
+
 
 @Component({
   selector: 'app-root',
@@ -6,7 +9,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 
-export class AppComponent implements OnInit {
-  constructor() {}
-  ngOnInit(): void {}
+export class AppComponent {
+  title = "Assessment.UI"
+  assessments: Assessment[] = [];
+
+  constructor(private assessmentService: AssessmentService) { }
+
+  ngOnInit(): void {
+    this.assessmentService
+      .getAssessments()
+      .subscribe((result: Assessment[]) => (this.assessments = result));
+
+  }
 }

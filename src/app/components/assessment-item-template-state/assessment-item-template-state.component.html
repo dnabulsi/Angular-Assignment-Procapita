@@ -1,25 +1,37 @@
-<div class="leftContent">
-  <div class="status">
-    <div class="icon"><img src="assets/green-circle.svg" alt="status" class="icon8" /></div>
-    <div class="pageTitle">Active</div>
-  </div>
-  <div class="assessmentTitle">Assessment Title</div>
-  <div class="frame6">
-    <div class="overlineBold">4</div>
-    <div class="overline">Tests</div>
-  </div>
-  <div class="frame5">
-    <div class="overlineBold">42</div>
-    <div class="overline">Questions</div>
-  </div>
+<table>
+  <tbody>
+    <tr>
+      <div class="leftContent" *ngFor="let assessment of assessments">
 
-  <div class="rightContent">
+        <td class="status">
+          <div class="icon">
+            <img *ngIf="assessment.status === true" src="assets/green-circle.svg" alt="status" class="icon8" />
+            <img *ngIf="assessment.status === false" src="assets/red-circle.svg" alt="status" class="icon8" />
+          </div>
+          <div *ngIf="assessment.status === true" class="pageTitle">OPEN</div>
+          <div *ngIf="assessment.status === false" class="pageTitle">CLOSED</div>
+        </td>
 
-      <button class="open-button"> Open </button>
+        <td class="assessmentTitle">{{assessment.title}}</td>
+        
+        <td class="frame6">
+          <div class="overlineBold">{{assessment.tests}}</div>
+          <div class="overline">Tests</div>
+        </td>
 
-    <div class="rightSubcontent">
-      <div class="icon"><img class="dots" id="dots-image" src="assets/three-dots.svg" /></div>
-    </div>
-  </div>
+        <td class="frame5">
+          <div class="overlineBold">{{assessment.questions}}</div>
+          <div class="overline">Questions</div>
+        </td>
 
-</div>
+        <td class="rightContent">
+          <button class="open-button"> Open </button>
+          <div class="rightSubcontent">
+            <div class="icon"><img class="dots" id="dots-image" src="assets/three-dots.svg" /></div>
+          </div>
+        </td>
+        
+      </div>
+    </tr>
+  </tbody>
+</table>

@@ -16,6 +16,7 @@ import { MoreActionsSizeDefaultStatComponent } from './components/more-actions-s
 import { IconstyleRegularPaddingNoneComponent } from './components/iconstyle-regular-padding-none/iconstyle-regular-padding-none.component';
 import { ButtonIconBaseDefaultComponent } from './components/button-icon-base-default/button-icon-base-default.component';
 import { IconstyleRegularPaddingSquareComponent } from './components/iconstyle-regular-padding-square/iconstyle-regular-padding-square.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -37,6 +38,7 @@ import { IconstyleRegularPaddingSquareComponent } from './components/iconstyle-r
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    HttpClientModule,
   ],
   providers: [],
   bootstrap: [AppComponent]

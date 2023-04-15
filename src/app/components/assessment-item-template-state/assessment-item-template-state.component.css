@@ -238,3 +238,12 @@ svg {
 .icon:hover .dots {
   background-color: #DFE7E9;
 }
+
+tr {
+  display: block!important;
+}
+
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
