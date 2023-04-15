@@ -37,19 +37,25 @@ svg {
 
 :host {
   width: 980px;
-  height: 80px;
   place-content: space-between;
   align-items: center;
-  padding: 0 24px;
+
   border-radius: 4px;
   background-color: #ffffff80;
+  display: block;
 }
 
 .leftContent {
   width: min-content;
-  height: min-content;
+  height: 80px;
   align-items: center;
   gap: 40px;
+  padding-left: 24px;
+}
+
+.leftContent:hover {
+  background-color: #ffffff;
+  border-radius: 4px;
 }
 
 .status {
@@ -86,6 +92,10 @@ svg {
   flex-direction: column;
 }
 
+.leftContent:hover .assessmentTitle {
+  color: #384761;
+}
+
 .frame6 {
   width: min-content;
   height: 20px;
@@ -119,6 +129,14 @@ svg {
   flex-direction: column;
 }
 
+.leftContent:hover .overline {
+  color: #384761;
+}
+
+.leftContent:hover .overlineBold {
+  color: #384761;
+}
+
 .frame5 {
   width: min-content;
   height: 20px;
@@ -127,9 +145,14 @@ svg {
 }
 
 .rightContent {
-  width: min-content;
+  padding-right: 23px;
+  padding-top: 31px;
+  padding-bottom: 30px;
+  padding-left: 98px;
   height: min-content;
+  border-radius: 4px;
 }
+
 
 .rightSubcontent {
   width: min-content;
@@ -143,22 +166,71 @@ svg {
   width: 100%;
   height: 100%;
   object-fit: cover;
+
 }
 
 .dots {
-  padding-left: 17px;
-  padding-right: 17px;
+  padding: 11px 17px;
+  border-radius: 4px;
+  margin-right: 17px;
 }
 
 .icon {
-  color: #4a5f82;
   font-size: 20px;
   font-family: Font Awesome 6 Pro, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
     'Liberation Sans', sans-serif;
   width: 20px;
-  height: 19px;
+  height: 40px;
   text-align: center;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+.label {
+  color: #ffffff;
+  font-size: 14px;
+  line-height: 15px;
+  font-weight: 500;
+  font-family: Rubik, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans',
+    'Liberation Sans', sans-serif;
+  width: min-content;
+  height: min-content;
+  white-space: nowrap;
+  flex-direction: column;
+}
+
+.content {
+  width: min-content;
+  height: 16px;
+  align-items: center;
+  gap: 12px;
+}
+
+.buttonContainer {
+  width: min-content;
+  height: 40px;
+  align-items: center;
+  padding: 6px;
+  border-radius: 4px;
+  background-color: #009999;
+  overflow: hidden;
+  margin-right: 39px;
+}
+
+.leftContent:hover #dots-image {
+  content: url("/assets/three-dots-hover.svg");
+}
+
+.leftContent:hover .dots {
+  background-color: #DFECEE;
+}
+
+.icon:hover #dots-image {
+  content: url("/assets/three-dots-active.svg");
+}
+
+
+.icon:hover .dots {
+  background-color: #DFE7E9;
 }

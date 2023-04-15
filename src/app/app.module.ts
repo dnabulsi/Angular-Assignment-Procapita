@@ -5,7 +5,6 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { AssessmentItemTemplateStateComponent } from './components/assessment-item-template-state/assessment-item-template-state.component';
-import { AssessmentItemTemplateStateOpenComponent } from './components/assessment-item-template-state-open/assessment-item-template-state-open.component';
 import { ButtonBaseDefaultComponent } from './components/button-base-default/button-base-default.component';
 import { ButtonTypePrimarySizeDefaultComponent } from './components/button-type-primary-size-default/button-type-primary-size-default.component';
 import { ButtonTypePrimarySizeDefault2Component } from './components/button-type-primary-size-default2/button-type-primary-size-default2.component';
@@ -22,7 +21,6 @@ import { IconstyleRegularPaddingSquareComponent } from './components/iconstyle-r
   declarations: [
     AppComponent,
     AssessmentItemTemplateStateComponent,
-    AssessmentItemTemplateStateOpenComponent,
     ButtonBaseDefaultComponent,
     ButtonTypePrimarySizeDefaultComponent,
     ButtonTypePrimarySizeDefault2Component,
