@@ -145,7 +145,6 @@ svg {
 }
 
 .rightContent {
-  padding-right: 23px;
   padding-top: 31px;
   padding-bottom: 30px;
   padding-left: 98px;
@@ -172,7 +171,8 @@ svg {
 .dots {
   padding: 11px 17px;
   border-radius: 4px;
-  margin-right: 17px;
+  margin-right: 34px;
+  
 }
 
 .icon {
@@ -187,8 +187,21 @@ svg {
   flex-direction: column;
 }
 
-.label {
-  color: #ffffff;
+.content {
+  width: min-content;
+  height: 16px;
+  align-items: center;
+  gap: 12px;
+}
+
+.open-button {
+  display: none;
+  width: min-content;
+  align-items: center;
+  padding: 12px 17px;
+  border-radius: 4px;
+  overflow: hidden;
+  margin-right: 39px;
   font-size: 14px;
   line-height: 15px;
   font-weight: 500;
@@ -198,24 +211,9 @@ svg {
   height: min-content;
   white-space: nowrap;
   flex-direction: column;
-}
-
-.content {
-  width: min-content;
-  height: 16px;
-  align-items: center;
-  gap: 12px;
-}
-
-.buttonContainer {
-  width: min-content;
-  height: 40px;
-  align-items: center;
-  padding: 6px;
-  border-radius: 4px;
-  background-color: #009999;
-  overflow: hidden;
-  margin-right: 39px;
+  background-color: transparent;
+  color: transparent;
+  
 }
 
 .leftContent:hover #dots-image {
@@ -224,6 +222,12 @@ svg {
 
 .leftContent:hover .dots {
   background-color: #DFECEE;
+  
+}
+
+.leftContent:hover .open-button {
+  background-color: #009999;
+  color: #ffffff;
 }
 
 .icon:hover #dots-image {
