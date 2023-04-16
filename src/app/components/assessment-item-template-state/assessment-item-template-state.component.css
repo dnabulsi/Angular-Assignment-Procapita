@@ -268,12 +268,11 @@ table {
   padding-right: 73px;
   text-align: left;
   margin-left: 0px;
-  
 }
 
 .menu-hidden {
   margin-top: 126px;
-  margin-left: -155px;
+  margin-left: -177px;
   position: absolute;
   background: #FFFFFF;
   border: 1px solid #DFE4EC;
@@ -287,4 +286,5 @@ table {
   margin-left: -30px;
   width: 17px;
   height: 17px;
+  margin-top: 4px;
 }
