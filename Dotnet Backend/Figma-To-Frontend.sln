@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Figma-To-Frontend", "Figma-To-Frontend\Figma-To-Frontend.csproj", "{6A3F0276-8AB9-45DC-8640-7F8414E9DFBC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6A3F0276-8AB9-45DC-8640-7F8414E9DFBC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A3F0276-8AB9-45DC-8640-7F8414E9DFBC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A3F0276-8AB9-45DC-8640-7F8414E9DFBC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A3F0276-8AB9-45DC-8640-7F8414E9DFBC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {42A59E62-A8F4-4CFE-B7F0-750C6F34B7BB}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,64 @@
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.exe
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.deps.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.runtimeconfig.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.pdb
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.AssemblyInfo.cs
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.Figma-To-Frontend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.build.Figma-To-Frontend.props
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Figma-To-Frontend.props
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Figma-To-Frontend.props
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\scopedcss\bundle\Figma-To-Frontend.styles.css
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.csproj.CopyComplete
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\refint\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.pdb
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.genruntimeconfig.cache
+C:\Users\USER\Desktop\EmployeeWebApp\Figma-To-Frontend\Figma-To-Frontend\obj\Debug\net6.0\ref\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\appsettings.Development.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\appsettings.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.exe
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.deps.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.runtimeconfig.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Figma-To-Frontend.pdb
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Microsoft.OpenApi.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.csproj.AssemblyReference.cache
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.AssemblyInfoInputs.cache
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.AssemblyInfo.cs
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.csproj.CoreCompileInputs.cache
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.Figma-To-Frontend.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.build.Figma-To-Frontend.props
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Figma-To-Frontend.props
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Figma-To-Frontend.props
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets.pack.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\scopedcss\bundle\Figma-To-Frontend.styles.css
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.csproj.CopyComplete
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\refint\Figma-To-Frontend.dll
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.pdb
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\Figma-To-Frontend.genruntimeconfig.cache
+C:\Users\USER\Desktop\GitHub repos\Angular-Assignment-Procapita\Dotnet Backend\Figma-To-Frontend\obj\Debug\net6.0\ref\Figma-To-Frontend.dll
