@@ -46,18 +46,18 @@ svg {
   width: 980px;
   place-content: space-between;
   align-items: center;
-
-  border-radius: 4px;
-  background-color: #ffffff80;
   display: block;
 }
 
 .leftContent {
   width: min-content;
   height: 80px;
+  margin-bottom: 10px;
   align-items: center;
+  background-color: #ffffff80;
   gap: 40px;
   padding-left: 24px;
+  border-radius: 4px;
 }
 
 .leftContent:hover {

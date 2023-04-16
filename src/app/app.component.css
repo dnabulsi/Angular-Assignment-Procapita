@@ -428,7 +428,7 @@ svg {
   height: 80px;
   place-content: space-between;
   align-items: center;
-  padding: 16px 40px;
+  padding: 16px;
   background-color: #ffffffe5;
   box-shadow: 2px 2px 4px 0px #4a5f821a;
 }
