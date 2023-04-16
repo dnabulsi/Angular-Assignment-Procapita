@@ -172,7 +172,7 @@ svg {
   padding: 11px 17px;
   border-radius: 4px;
   margin-right: 34px;
-  
+
 }
 
 .icon {
@@ -213,7 +213,7 @@ svg {
   flex-direction: column;
   background-color: transparent;
   color: transparent;
-  
+
 }
 
 .leftContent:hover #dots-image {
@@ -222,7 +222,7 @@ svg {
 
 .leftContent:hover .dots {
   background-color: #DFECEE;
-  
+
 }
 
 .leftContent:hover .open-button {
@@ -240,10 +240,42 @@ svg {
 }
 
 tr {
-  display: block!important;
+  display: block !important;
 }
 
 table {
   border-collapse: separate;
   border-spacing: 0 15px;
+}
+
+.menu-option {
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  color: #5D75A2;
+  margin-left: -25px;
+  padding-right: 60px;
+}
+
+.menu {
+  margin-top: 120px;
+  margin-right: 120px;
+  display: flex !important;
+  position: absolute;
+  height: 68px;
+  background: #FFFFFF;
+  border: 1px solid #DFE4EC;
+  box-shadow: 8px 8px 16px rgba(74, 95, 130, 0.1);
+  border-radius: 4px;
+  text-align: left;
+}
+
+.menu-option-image {
+  margin-right: 10px;
+  width: 17px;
+  height: 17px;
 }
