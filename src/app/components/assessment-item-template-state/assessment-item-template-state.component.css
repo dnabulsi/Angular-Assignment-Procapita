@@ -22,6 +22,12 @@ ol {
   padding-inline-start: 1.5em;
 }
 
+li {
+  list-style: none;
+  margin: 10px;
+  vertical-align:middle;
+}
+
 p:empty::before {
   content: '';
   display: inline-block;
@@ -29,6 +35,7 @@ p:empty::before {
 
 img {
   object-fit: contain;
+  float:left;
 }
 
 svg {
@@ -181,7 +188,7 @@ svg {
     'Liberation Sans', sans-serif;
   width: 20px;
   height: 40px;
-  text-align: center;
+  text-align: left;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -234,9 +241,12 @@ svg {
   content: url("/assets/three-dots-active.svg");
 }
 
-
 .icon:hover .dots {
   background-color: #DFE7E9;
+}
+
+.icon:hover .menu-hidden {
+  display: flex!important;
 }
 
 tr {
@@ -254,28 +264,27 @@ table {
   font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  display: flex;
-  align-items: center;
   color: #5D75A2;
-  margin-left: -25px;
   padding-right: 60px;
+  text-align: left;
+  margin-left: 10px;
 }
 
-.menu {
-  margin-top: 120px;
-  margin-right: 120px;
-  display: flex !important;
+.menu-hidden {
+  margin-top: 126px;
+  margin-left: -155px;
   position: absolute;
-  height: 68px;
   background: #FFFFFF;
   border: 1px solid #DFE4EC;
   box-shadow: 8px 8px 16px rgba(74, 95, 130, 0.1);
   border-radius: 4px;
-  text-align: left;
+  display: none!important;
+  vertical-align: left;
 }
 
 .menu-option-image {
   margin-right: 10px;
+  margin-left: -30px;
   width: 17px;
   height: 17px;
 }

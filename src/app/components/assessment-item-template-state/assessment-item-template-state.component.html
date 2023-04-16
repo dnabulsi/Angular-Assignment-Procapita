@@ -18,7 +18,7 @@
         </td>
 
         <td class="assessmentTitle">{{assessment.title}}</td>
-        
+
         <td class="frame6">
           <div class="overlineBold">{{assessment.tests}}</div>
           <div class="overline">Tests</div>
@@ -32,10 +32,18 @@
         <td class="rightContent">
           <button class="open-button"> Open </button>
           <div class="rightSubcontent">
-            <div class="icon"><img class="dots" id="dots-image" src="assets/three-dots.svg" /></div>
+            <div class="icon"><img class="dots" id="dots-image" src="assets/three-dots.svg" />
+              <div class="menu-hidden" id="menu-hidden">
+                <ul>
+                  <li><a class="menu-option"><img class="menu-option-image" src="assets/pencil.svg" />Edit</a>
+                  </li>
+                  <li><a class="menu-option"><img class="menu-option-image" src="assets/trashcan.svg" />Delete</a></li>
+                </ul>
+              </div>
+            </div>
           </div>
         </td>
-        
+
       </div>
     </tr>
   </tbody>
