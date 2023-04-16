@@ -159,7 +159,6 @@ svg {
   border-radius: 4px;
 }
 
-
 .rightSubcontent {
   width: min-content;
   height: min-content;
@@ -178,7 +177,7 @@ svg {
 .dots {
   padding: 11px 17px;
   border-radius: 4px;
-  margin-right: 34px;
+  margin-right: 56px;
 
 }
 
@@ -205,10 +204,11 @@ svg {
   display: none;
   width: min-content;
   align-items: center;
-  padding: 12px 17px;
+  padding: 12px 15px;
+  padding-bottom: 13px;
   border-radius: 4px;
   overflow: hidden;
-  margin-right: 39px;
+  margin-right: 50px;
   font-size: 14px;
   line-height: 15px;
   font-weight: 500;
@@ -265,9 +265,10 @@ table {
   font-size: 12px;
   line-height: 18px;
   color: #5D75A2;
-  padding-right: 60px;
+  padding-right: 73px;
   text-align: left;
-  margin-left: 10px;
+  margin-left: 0px;
+  
 }
 
 .menu-hidden {
@@ -283,7 +284,6 @@ table {
 }
 
 .menu-option-image {
-  margin-right: 10px;
   margin-left: -30px;
   width: 17px;
   height: 17px;
